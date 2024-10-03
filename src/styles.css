@@ -1,0 +1,50 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 8%;
+  background-color: #efcdae;
+  color: #414042;
+}
+
+h1 {
+  color: #414042;
+  text-align: center;
+}
+
+h2 {
+  position: fixed;
+  top: 0;
+  right: 10%;
+  font-size: small;
+  color: #f18435;
+}
+
+ul {
+  list-style: none;
+}
+
+.mainButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: #414042;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  padding: 5px 10px;
+  font-size: medium;
+  margin: 5px;
+}
+
+.selectedButton,
+.generateButton {
+  background-color: #f18435;
+}
+
+.copyButton {
+  background-color: #414042;
+  margin-left: 20px;
+}
